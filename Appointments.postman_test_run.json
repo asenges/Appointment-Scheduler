@@ -1,0 +1,62 @@
+{
+	"id": "dc2d6289-8675-4389-b7e4-a7dd3ed052d5",
+	"name": "Appointments",
+	"timestamp": "2021-10-14T21:57:44.272Z",
+	"collection_id": "13491267-45421552-ddc8-4bb5-b819-f8c0385fdecd",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "eedbd360-0090-424b-9365-b609ccaf5bdb",
+			"name": "http://127.0.0.1:5000/appointments",
+			"url": "http://127.0.0.1:5000/appointments",
+			"time": 6,
+			"responseCode": {
+				"code": 406,
+				"name": "NOT ACCEPTABLE"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "757f7178-ad18-489f-bec6-38f01ad6f2b2",
+			"name": "http://127.0.0.1:5000/appointments/3",
+			"url": "http://127.0.0.1:5000/appointments/3",
+			"time": 4,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 10,
+	"collection": {
+		"requests": [
+			{
+				"id": "eedbd360-0090-424b-9365-b609ccaf5bdb",
+				"method": "POST"
+			},
+			{
+				"id": "757f7178-ad18-489f-bec6-38f01ad6f2b2",
+				"method": "GET"
+			}
+		]
+	}
+}
